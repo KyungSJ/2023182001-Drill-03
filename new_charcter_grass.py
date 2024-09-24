@@ -57,6 +57,8 @@ def run_rectangle():
 
 def run_triangle_bottom():
     print('BOTTOM')
+    for x in range(100, 700, 10):
+        draw_boy(x, 0)
     pass
 
 def run_right_top():
