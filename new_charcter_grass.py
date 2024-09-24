@@ -63,6 +63,12 @@ def run_triangle_bottom():
 
 def run_right_top():
     print('RIGHTTOP')
+    x = 710
+    y = -10
+    while x > 400:
+        x -= 10
+        y += 20
+        draw_boy(x, y)
     pass
 
 def run_left_bottom():
@@ -71,7 +77,7 @@ def run_left_bottom():
 
 def run_triangle():
     print('triangle')
-    run_triangle_bottom()
+    #run_triangle_bottom()
     run_right_top()
     run_left_bottom()
     pass
