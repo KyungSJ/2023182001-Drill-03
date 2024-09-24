@@ -74,7 +74,7 @@ def run_right_top():
 def run_left_bottom():
     print('LEFTBOTTOM')
     x = 410
-    y = 620
+    y = 630
     while x > 100:
         x -= 10
         y -= 20
@@ -84,7 +84,7 @@ def run_left_bottom():
 def run_triangle():
     print('triangle')
     #run_triangle_bottom()
-    #run_right_top()
+    run_right_top()
     run_left_bottom()
     pass
     
