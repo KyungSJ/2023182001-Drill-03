@@ -83,15 +83,14 @@ def run_left_bottom():
 
 def run_triangle():
     print('triangle')
-    #run_triangle_bottom()
+    run_triangle_bottom()
     run_right_top()
     run_left_bottom()
     pass
     
 while True:
-    #run_circle()
-    #run_rectangle()
+    run_circle()
+    run_rectangle()
     run_triangle()
-    break
-
+    
 close_canvas()
